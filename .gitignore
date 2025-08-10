@@ -77,6 +77,8 @@ web_modules/
 # Next.js build output
 .next
 out
+.next/
+out/
 
 # Nuxt.js build / generate output
 .nuxt
@@ -84,6 +86,7 @@ dist
 
 # Gatsby files
 .cache/
+
 # Comment in the public line in if your project uses Gatsby and not Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
@@ -137,3 +140,50 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Vercel deployment
+.vercel
+
+# macOS system files
+.DS_Store
+.DS_Store?
+
+# Windows system files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment files (refined)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Next.js specific (refined)
+.next/
+out/
+build/
+.vercel/
+.now/
+*.turbo
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# Storybook build outputs
+storybook-static/
+
+# Temporary folders
+tmp/
+temp/
